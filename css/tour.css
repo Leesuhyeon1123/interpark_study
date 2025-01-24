@@ -1,5 +1,65 @@
 @charset "utf-8";
-.tour-img img{
-    width: 100%;
-    
+.tour-img img {
+  width: 100%;
+}
+.tour .swiper-wrapper{
+    align-items: flex-end;
+}
+.tour-link {
+  display: block;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+.tour-img {
+}
+.tour-img img {
+  width: 100%;
+  aspect-ratio: 1 / 0.6; /*이미지가 1:1로 됨*/
+}
+.tour-info {
+  padding: 5%;
+  background-color: #fff;
+}
+/* 반짝특가 */
+.tour-info-list li {
+  position: relative; /*위치값 잡기*/
+}
+.tour-cate {
+  position: absolute;
+  top: -33px;
+  left: 0;
+  display: inline-block;
+  background: #4a95ff;
+  font-size: 14px;
+  line-height: 32px;
+  color: #fff;
+  font-weight: 700;
+  padding: 0 10px;
+  border-radius: 3px;
+}
+.tour-title {
+  display: block; /*inline일 경우 말줄임 안먹음*/
+  font-size: 15px;
+  list-style: 18px;
+  color: #4a95ff;
+  /* 한줄 말줄임 표시 */
+  /* width: 200px; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  /* 간격주기 */
+  padding-top: 10px;
+}
+.tour-price{
+    font-size: 16px;
+    line-height: 24px;
+}
+.tour-price b{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px   ;
+}
+.tour-place{
+    font-size: 12px;
 }

@@ -15,6 +15,7 @@
 }
 .header-up-left {
   width: 50%;
+  min-width: 400px;
   display: flex;
   align-items: center;
   gap: 8%;
@@ -29,8 +30,10 @@
 /* 검색 창*/
 .search {
   width: 70%;
+  
   height: 40px;
   max-width: 455px;
+  /* min-width: ; */
   background-color: #fff;
   border-radius: 25px;
   padding: 0 10px;
@@ -55,6 +58,7 @@
 }
 .member-list {
   width: 100%;
+  min-width: 200px;/*반응형으로 바꾸기*/
   display: flex;
   justify-content: flex-end;
   gap: 5%;
@@ -116,7 +120,7 @@
 .service-list li a{
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 9px;
 }
 .service-list li a img {
   width: 30px;
